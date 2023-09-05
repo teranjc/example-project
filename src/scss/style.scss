@@ -1,0 +1,71 @@
+@import './variables';
+@import 'vuetify/styles/main.sass';
+@import './override';
+@import './layout/container';
+@import './layout/sidebar';
+@import './layout/topbar';
+@import './components/VButtons';
+@import './components/VCard';
+@import './components/VInput';
+@import './components/VNavigationDrawer';
+@import './components/VShadow';
+@import './components/VTextField';
+@import './pages/dashboards';
+@import './pages/auth';
+@import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css';
+
+.menu_items {
+    border: 1px solid rgb(var(--v-theme-borderColor));
+    border-radius: 8px !important;
+    padding: 7px;
+}
+
+.v-tab__slider {
+    width: 0% !important;
+}
+
+.menu_items_details {
+    border: 1px solid #cccccc;
+    border-radius: 4px !important;
+    background-color: transparent !important;
+    padding: 0px !important;
+}
+
+.v-application__wrap {
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    max-width: 99%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    position: relative;
+}
+
+.Vue-Toastification__toast--success {
+    background-color: #13deb9 !important;
+    font-family: $body-font-family !important;
+    color: #fff;
+}
+
+.Vue-Toastification__toast--warning {
+    background-color: #ffae1f !important;
+    font-family: $body-font-family !important;
+    color: #fff;
+}
+
+.Vue-Toastification__toast--error {
+    background-color: #fa896b !important;
+    font-family: $body-font-family !important;
+    color: #fff;
+}
+
+.Vue-Toastification__toast--info {
+    background-color: #5d87ff !important;
+    font-family: $body-font-family !important;
+    color: #fff;
+}
+
+* {
+    font-family: $body-font-family !important;
+}

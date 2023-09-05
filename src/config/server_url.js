@@ -1,0 +1,1 @@
+export const SERVER_URL = 'http://201.144.248.139:8090/kronos/';
