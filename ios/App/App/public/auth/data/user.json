@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "id": "hrzQJ",
+            "name": "Jesus Teran Cervantes",
+            "user": "jesusteran",
+            "password": "jesusteran"
+        },
+        {
+            "id": "hrs3zQJ",
+            "name": "Administrador",
+            "user": "admin",
+            "password": "root"
+        },
+        {
+            "id": "hrs3zJ",
+            "name": "Mario Enrinque",
+            "user": "mariovalverde",
+            "password": "mariovalverde"
+        },
+        {
+            "id": "jtczQJ",
+            "name": "Ivo Danic Garrido",
+            "user": "ivogarrido",
+            "password": "ivogarrido"
+        }
+    ]
+}

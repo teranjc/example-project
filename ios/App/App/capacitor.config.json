@@ -1,0 +1,9 @@
+{
+	"appId": "com.example.app",
+	"appName": "scronos",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"server": {
+		"androidScheme": "http"
+	}
+}
