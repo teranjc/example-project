@@ -1,0 +1,7 @@
+{
+  "name": "modernize",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
